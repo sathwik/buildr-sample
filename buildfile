@@ -2,7 +2,7 @@
 
 
 # Version number for this release
-VERSION_NUMBER = "1.0.0"
+VERSION_NUMBER = "1.0.1-SNAPSHOT"
 # Group identifier for your projects
 GROUP = "BuildrSample"
 COPYRIGHT = ""
