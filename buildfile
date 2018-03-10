@@ -2,7 +2,7 @@
 
 
 # Version number for this release
-VERSION_NUMBER = "1.0.1-SNAPSHOT"
+VERSION_NUMBER = "1.0.1"
 # Group identifier for your projects
 GROUP = "BuildrSample"
 COPYRIGHT = ""
@@ -13,7 +13,7 @@ repositories.release_to[:options] = {:digests => [:md5, :sha1, :sha512]}
 
 if VERSION_NUMBER =~ /SNAPSHOT/
 else
-    require "buildr/gpg"
+#    require "buildr/gpg"
 end
 
 desc "The Buildrsample project"
